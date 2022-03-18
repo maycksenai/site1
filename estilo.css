@@ -24,3 +24,16 @@ p {
     font-size: 11px;
     color: #8888;
 }
+
+
+.tabela-ipva{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+
+}
