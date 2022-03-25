@@ -1,0 +1,176 @@
+@font-face{
+    font-family: 'Robozinho';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Robozinho-Negrito';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+body{
+    overflow-y: scroll;
+}
+
+h1{
+    font-family: 'Robozinho';
+}
+
+h2 {
+    font-family: 'Robozinho-Negrito';
+    font-size: 16px;
+    color: coral;
+    
+}
+
+h2.fonte-azul{
+    color: blue;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+#paragrafo{
+    font-size: 11px;
+    color: #8888;
+}
+#paragrafo2{
+    font-size: 11px;
+    color: #8888;
+}
+
+a{
+   text-decoration: none;
+    color: coral;
+    background-color: yellow;
+  
+}
+
+a:visited{
+    background-color: blue;
+}
+ 
+a:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+}
+
+
+a:active{
+    background-color: red;
+}
+
+
+.tabela-ipva {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #00FF00;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody{
+    font-size: 10px;
+}
+
+td{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
+}
+
+tr{
+  background-color: yellow;
+}
+
+tr:hover{
+    background-color: #00FF00;
+    cursor: pointer;
+}
+
+tfoot{
+    font-size: 9px;
+    font-weight: 700;
+}
+
+
+ul{
+    /* list-style-type: square;
+    list-style-position: outside; */
+    list-style: square outside url("rocket-icon.png");
+}
+
+ul li{
+  color: blue;  
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ol li{
+  color: red;  
+}
+
+ol li.item-impar{
+    background-color: yellow;
+}
+
+ol li:hover{
+    background-color: #00FF00;
+    cursor: pointer;
+}
+
+div, article {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    background-color: #f5f5f5;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.img-destaque-materia{
+    width: 260px;
+    height: auto;
+    border-radius: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    display: block;
+    padding: 8px;
+    background-color: transparent;
+}
+
+label{
+    /* width: 100px;
+    display: inline-block; */
+}
